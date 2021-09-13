@@ -10,12 +10,12 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.min.css">
     <title>maraphon2021_Botanica</title>
 </head>
 
 <body>
-    
+
     <header>
         <a href="#start">
             <img src="png/logo_botanica.png" width="100" alt="лого бренд Ботаника" class="logo">
@@ -28,6 +28,7 @@
                 <li class="navbar_link"><a class="navbar_link--style" href="#">Спецпредложения</a></li>
                 <li class="navbar_link"><a class="navbar_link--style" href="#">Контакты</a></li>
                 <li class="navbar_link"><a class="navbar_link--style" href="#">Корзина</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -87,11 +88,11 @@
 
                 <div class="sliders-control">
                     <button type="button">
-                        <span class="visually-hidden slider_left">&larr;</span>
+                        <span class="visually-hidden slider_arrow--left">&larr;</span>
                     </button>
 
                     <button type="button">
-                        <span class="visually-hidden slider_right">&rarr;</span>
+                        <span class="visually-hidden slider_arrow--right">&rarr;</span>
                     </button>
                 </div>
 
@@ -99,6 +100,7 @@
         </section>
 
         <section class="container chapters">
+            <h1 class="visually-hidden">Botanica катологи букетов с доставкой в Петербурге</h1>
             <article class="chapter">
                 <a class="darken-pseudo" href="#catalog-page" target="_blank">
                     <img src="jpg/sammi-glass-vase.jpg" width="387" height="442" alt="букет роз в стеклянной вазе">
@@ -212,31 +214,32 @@
             </div>
         </section>
 
-        <section class="contacts">
+        <address class="contacts">
             <div class="contact_map">
                 <img src="png/map.png" width="1440" height="644" alt="нас легко найти по карте с контактами">
             </div>
             <div class="contact_info">
-                <h3>Мы ждем вас</h3>
+                Мы ждем вас
                 <div class="contact">
                     <p class="text16 address">Приходите к нам:</p>
-                    <h6>Санкт-Петербург,
-                        ул. Большая Конюшенная, 19</h6>
+                    <p>Санкт-Петербург,
+                        ул. Большая Конюшенная, 19
+                    <p>
                 </div>
                 <div class="contact">
                     <p class="text16">Режим работы:</p>
-                    <h6>Пн-Вск, с 9-00 до 20-00</h6>
+                    <p>Пн-Вск, с 9-00 до 20-00</p>
                 </div>
                 <div class="contact">
                     <p class="text16">Позвоните нам:</p>
-                    <h6>+ 7 (812) 983-47-19</h6>
+                    <p>+ 7 (812) 983-47-19</p>
                 </div>
                 <div class="contact">
                     <p class="text16">Напишите нам:</p>
-                    <h6>info@botanika.ru</h6>
+                    <p>info@botanika.ru</p>
                 </div>
             </div>
-        </section>
+        </address>
     </main>
 
     <footer>
